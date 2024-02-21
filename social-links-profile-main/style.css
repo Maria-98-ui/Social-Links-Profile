@@ -36,11 +36,11 @@ body{
 }
 
 .user-pro{
-    max-width: 99px;
+    max-width: 120px;
     border-radius: 50%;
 
     margin-bottom: 6px;
-    margin-top: 25px;
+    margin-top: 47px;
 }
 .user-name{
     font-size: 27px;
@@ -53,12 +53,14 @@ body{
 .user-location{
     font-size: 15px;
     margin-top: 10px;
-    color: hsl(75, 94%, 57%);
+    color: #e0b0ff;
 }
 .info p{
+    font-size: 15px;
+    font-weight: 500;
     color: white;
     margin-bottom: 2px;
-    margin-top: 39px;
+    margin-top: 19px;
     padding-bottom: 2px;
     
 }
@@ -81,7 +83,7 @@ body{
     border-radius: .25rem;
     color: white;
     font-family: 'inter', sans-serif; 
-    width: 330px;
+    width: 340px;
     font-weight: 650;
     font-size: 15px;
     border-radius: 10px;
@@ -93,7 +95,7 @@ body{
 }
 
 .button:hover{
-    background-color: hsl(75, 94%, 57%);
+    background-color: #e0b0ff;
     color: black;
 
 }
