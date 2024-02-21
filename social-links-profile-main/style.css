@@ -1,0 +1,99 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    min-height: 100vh;
+    display: grid;
+    place-content: center;
+    background-color: hsl(0, 0%, 8%);
+    text-align: center;
+    font-family: 'inter', sans-serif;
+}
+
+.contents{
+    display: grid;
+    flex-direction: column;
+    background-color: hsl(0, 0%, 12%);
+    padding: .1rem 3rem .1rem;
+    gap: 4px;
+    border-radius: 15px;
+}
+.contents > *{
+    margin: 0;
+}
+.info{
+    margin-bottom: 10px;
+    gap: 1rem;
+    padding: 2px 15px 15px;
+    align-items: center;
+}
+
+.info > *{
+    margin: 0;
+}
+
+.user-pro{
+    max-width: 99px;
+    border-radius: 50%;
+
+    margin-bottom: 6px;
+    margin-top: 25px;
+}
+.user-name{
+    font-size: 27px;
+    color: white;
+    margin-top: 20px;
+    padding-bottom: .240rem;
+    font-weight: 700;
+}
+
+.user-location{
+    font-size: 15px;
+    margin-top: 10px;
+    color: hsl(75, 94%, 57%);
+}
+.info p{
+    color: white;
+    margin-bottom: 2px;
+    margin-top: 39px;
+    padding-bottom: 2px;
+    
+}
+.socialsBtn > *{
+    margin: 0;
+}
+.socialsBtn{
+    margin-bottom: 2rem;
+    padding-bottom: 1rem;
+    margin-top: 0rem;
+    padding-top: 0;
+}
+.socialsBtn .button{
+    display: block;
+    margin-top: 19px;
+  
+    padding: 14px;
+    background-color:  hsl(0, 0%, 20%);
+    border: 0;
+    border-radius: .25rem;
+    color: white;
+    font-family: 'inter', sans-serif; 
+    width: 330px;
+    font-weight: 650;
+    font-size: 15px;
+    border-radius: 10px;
+    cursor: pointer;
+    box-shadow: 0 2px 2px 1px hsl(0, 0%, 20%);;
+    transition: background-color 0.2s ease-in-out;
+
+
+}
+
+.button:hover{
+    background-color: hsl(75, 94%, 57%);
+    color: black;
+
+}
