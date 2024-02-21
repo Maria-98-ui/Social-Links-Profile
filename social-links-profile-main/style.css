@@ -43,7 +43,7 @@ body{
     margin-top: 47px;
 }
 .user-name{
-    font-size: 27px;
+    font-size: 28px;
     color: white;
     margin-top: 20px;
     padding-bottom: .240rem;
@@ -51,7 +51,7 @@ body{
 }
 
 .user-location{
-    font-size: 15px;
+    font-size: 14px;
     margin-top: 10px;
     color: #e0b0ff;
 }
