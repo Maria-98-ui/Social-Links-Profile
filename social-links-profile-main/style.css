@@ -21,6 +21,7 @@ body{
     padding: .1rem 3rem .1rem;
     gap: 4px;
     border-radius: 15px;
+    opacity: 0.9;
 }
 .contents > *{
     margin: 0;
@@ -95,12 +96,15 @@ body{
     width: 340px;
     font-weight: 650;
     font-size: 15px;
+    text-decoration: none;
     border-radius: 10px;
     cursor: pointer;
     box-shadow: 0 2px 2px 1px hsl(0, 0%, 20%);;
     transition: background-color 0.2s ease-in-out;
 
-
+}
+a:link{
+    text-decoration: none;
 }
 
 .button:hover{
