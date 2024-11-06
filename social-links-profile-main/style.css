@@ -12,6 +12,7 @@ body{
     text-align: center;
     font-family: 'inter', sans-serif;
     overflow: hidden;
+    cursor: url('./assets/images/cursor.png'), auto;
 }
 
 .contents{
@@ -98,8 +99,9 @@ body{
     font-size: 15px;
     text-decoration: none;
     border-radius: 10px;
-    cursor: pointer;
-    box-shadow: 0 2px 2px 1px hsl(0, 0%, 20%);;
+    box-shadow: 0 2px 2px 1px hsl(0, 0%, 20%);
+    cursor: url('./assets/images/cursor.png'), auto;
+
     transition: background-color 0.2s ease-in-out;
 
 }
